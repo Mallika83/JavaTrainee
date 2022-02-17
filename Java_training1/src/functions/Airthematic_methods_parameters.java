@@ -30,13 +30,13 @@ int n1,n2;
 
 Airthematic_methods_parameters obj= new Airthematic_methods_parameters();
 
-System.out.println("Enter a value");
+System.out.println("Enter A value");
 n1=s.nextInt();
 
 System.out.println("Enter B value");
 n2=s.nextInt();
 
-System.out.println("Addition of two numbers: \t" + obj.add(n1, n2));
+System.out.println("Addition of two numbers: \t" + obj.add(n1, n2));//passing the numbers to add method
 System.out.println("Subtraction of two numbers : \t" + obj.sub(n1, n2));
 System.out.println("Multiplication of two numbers : \t" + obj.mul(n1, n2));
 System.out.println("Division of two numbers : \t" + obj.div(n1, n2));
